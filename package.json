@@ -1,0 +1,28 @@
+{
+  "name": "node-redis",
+  "version": "1.0.0",
+  "description": "redis在node中的使用",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengbo-ji/node-redis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mengbo-ji/node-redis/issues"
+  },
+  "homepage": "https://github.com/mengbo-ji/node-redis#readme",
+  "dependencies": {
+    "ioredis": "^4.28.3"
+  },
+  "devDependencies": {
+    "@types/ioredis": "^4.28.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
